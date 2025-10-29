@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import Navbar from './components/Navbar';
+// Ya no importamos Navbar aquí
 import Hero from './components/Hero';
 import AboutUs from './components/AboutUs';
 import CarloAcutis from './components/CarloAcutis';
@@ -8,13 +8,14 @@ import Missions from './components/Missions';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 
+import Layout from './components/Layout';
+
 function App() {
   return (
-    <div className='drawer'>
-      <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-
-      <Navbar />
+    // 1. Usamos el Layout para envolver todo
+    <Layout>
       
+      {/* 2. Pasamos el contenido de la página como 'children' */}
       <main>
         <section id="inicio">
           <Hero />
@@ -38,7 +39,8 @@ function App() {
       </main>
 
       <Footer />
-    </div>
+      
+    </Layout>
   );
 }
 

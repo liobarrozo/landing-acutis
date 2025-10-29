@@ -5,25 +5,25 @@ function ContactForm() {
   return (
     <div className="bg-base-200 p-12">
       <div className="container mx-auto max-w-lg">
-        <h2 className="text-3xl font-bold text-center mb-4">¡Queremos conocerte!</h2>
+        <h2 className="text-3xl font-bold text-center mb-4">¡Te invitamos a ser parte!</h2>
         <p className="text-center mb-8">
-          Si sentiste el llamado a misionar y quieres ser parte de esta familia, déjanos tus datos y te contactaremos.
+          Si sentiste el llamado a misionar y quieres ser parte de este grupo, dejanos tus datos y te contactamos.
         </p>
         
         <form className="card bg-base-100 shadow-2xl p-8">
           <div className="form-control mb-4">
             <label className="label"><span className="label-text">Tu Nombre</span></label>
-            <input type="text" placeholder="Juan Pérez" className="input input-bordered w-full" />
+            <input type="text" placeholder="Juan Perez" className="input input-bordered w-full" />
           </div>
           
           <div className="form-control mb-4">
             <label className="label"><span className="label-text">Tu Email</span></label>
-            <input type="email" placeholder="juan.perez@correo.com" className="input input-bordered w-full" />
+            <input type="email" placeholder="tu@correo.com" className="input input-bordered w-full" />
           </div>
 
           <div className="form-control mb-4">
-            <label className="label"><span className="label-text">Tu Teléfono (WhatsApp)</span></label>
-            <input type="tel" placeholder="+54 9 11 1234-5678" className="input input-bordered w-full" />
+            <label className="label"><span className="label-text">Tu Whatsapp</span></label>
+            <input type="tel" placeholder="+54 9 261 123-4567" className="input input-bordered w-full" />
           </div>
           
           <div className="form-control mb-6">
@@ -32,7 +32,7 @@ function ContactForm() {
           </div>
 
           <div className="form-control">
-            <button className="btn btn-primary btn-lg">Enviar Invitación</button>
+            <button className="btn btn-primary btn-lg">Enviar</button>
           </div>
         </form>
       </div>

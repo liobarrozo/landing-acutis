@@ -10,17 +10,17 @@ function Navbar() {
       
       {/* Título */}
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">G. M. Carlo Acutis</a>
+        <a href='inicio' className="btn btn-ghost text-xl">G. M. Carlo Acutis</a>
       </div>
 
       {/* Menú de Escritorio (Desktop) */}
       {/* Se oculta en pantallas pequeñas ('hidden') y se muestra en 'lg' y superiores ('lg:flex') */}
       <div className="flex-none hidden lg:flex">
         <ul className="menu menu-horizontal px-1 items-center"> {/* 'items-center' para alinear mejor el botón */}
-          <li><a>Quiénes Somos</a></li>
-          <li><a>Carisma</a></li>
+          <li><a href='#quienes-somos'>Quiénes Somos</a></li>
+          <li><a href='#carisma'>Carisma</a></li>
           <li><a href='#misiones'>Misiones</a></li>
-          <li className="ml-2"> {/* Agregado margen por estética */}
+          <li className="ml-2"> 
             <a href='#contacto' className="btn btn-primary btn-sm">¡Únete!</a>
           </li>
         </ul>
