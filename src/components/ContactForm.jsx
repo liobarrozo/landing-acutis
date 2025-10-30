@@ -10,25 +10,25 @@ function ContactForm() {
           Si sentiste el llamado a misionar y quieres ser parte de este grupo, dejanos tus datos y te contactamos.
         </p>
         
-        <form className="card bg-base-100 shadow-2xl p-8">
+        <form action='https://formspree.io/f/mvgvbyry' method='POST' className="card bg-base-100 shadow-2xl p-8">
           <div className="form-control mb-4">
             <label className="label"><span className="label-text">Tu Nombre</span></label>
-            <input type="text" placeholder="Juan Perez" className="input input-bordered w-full" />
+            <input type="text" name='nombre' placeholder="Juan Perez" className="input input-bordered w-full" />
           </div>
           
           <div className="form-control mb-4">
             <label className="label"><span className="label-text">Tu Email</span></label>
-            <input type="email" placeholder="tu@correo.com" className="input input-bordered w-full" />
+            <input type="email" name='email' placeholder="tu@correo.com" className="input input-bordered w-full" />
           </div>
 
           <div className="form-control mb-4">
             <label className="label"><span className="label-text">Tu Whatsapp</span></label>
-            <input type="tel" placeholder="+54 9 261 123-4567" className="input input-bordered w-full" />
+            <input type="tel"  name='whatsapp' laceholder="+54 9 261 123-4567" className="input input-bordered w-full" />
           </div>
           
           <div className="form-control mb-6">
             <label className="label"><span className="label-text">Cuéntanos un poco de ti</span></label>
-            <textarea className="textarea textarea-bordered h-24" placeholder="¿Por qué te gustaría unirte?"></textarea>
+            <textarea  name='mensaje' className="textarea textarea-bordered h-24" placeholder="¿Por qué te gustaría unirte?"></textarea>
           </div>
 
           <div className="form-control">
