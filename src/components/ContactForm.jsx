@@ -22,12 +22,17 @@ function ContactForm() {
           </div>
 
           <div className="form-control mb-4">
-            <label className="label"><span className="label-text">Tu Whatsapp</span></label>
-            <input type="tel"  name='whatsapp' laceholder="+54 9 261 123-4567" className="input input-bordered w-full" />
+            <label className="label"><span className="label-text">Tu Whatsapp</span> </label>
+            <input type="tel"  name='whatsapp' placeholder="+54 9 261 123-4567" className="input input-bordered w-full" />
+          </div>
+
+          <div className="form-control mb-4">
+            <label className="label"><span className="label-text">Parroquia o movimiento</span> <span className="ml-3 badge badge-neutral badge-xs">Opcional</span></label>
+            <input type="text"  name='parroquia' placeholder="Parroquia..." className="input input-bordered w-full" />
           </div>
           
           <div className="form-control mb-6">
-            <label className="label"><span className="label-text">Cuéntanos un poco de ti</span></label>
+            <label className="label"><span className="label-text">Contanos un poco de vos</span> <span className="ml-3 badge badge-neutral badge-xs">Opcional</span></label>
             <textarea  name='mensaje' className="textarea textarea-bordered h-24" placeholder="¿Por qué te gustaría unirte?"></textarea>
           </div>
 
