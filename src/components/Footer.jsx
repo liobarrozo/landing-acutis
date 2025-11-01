@@ -8,8 +8,7 @@ function Footer() {
         <p>Copyright © 2025 - Todos los derechos reservados</p>
         <p>Grupo Misionero Carlo Acutis</p>
         <p>
-          <a href="#" className="link link-hover">Instagram</a> | 
-          <a href="#" className="link link-hover"> Facebook</a>
+          <a href="https://www.instagram.com/grupomisioneroacutis.mza/" className="link link-hover">Instagram</a>
         </p>
       </aside>
     </footer>

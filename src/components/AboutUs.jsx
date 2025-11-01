@@ -40,7 +40,7 @@ function AboutUs() {
                             {/* Slide 1 */}
                             <div className="flex-[0_0_100%] min-w-0">
                                 <img 
-                                    src="/carloAcutis.webp"
+                                    src="/LogoGrupo.jpg"
                                     className="w-full" 
                                     alt="Foto del Grupo Misionero" 
                                 />
@@ -49,7 +49,7 @@ function AboutUs() {
                             {/* Slide 2 */}
                             <div className="flex-[0_0_100%] min-w-0">
                                 <img 
-                                    src="/carloAcutis.webp"
+                                    src="/FotoGrupo-1.jpg"
                                     className="w-full" 
                                     alt="Grupo en Misión" 
                                 />
@@ -58,7 +58,7 @@ function AboutUs() {
                             {/* Slide 3 */}
                             <div className="flex-[0_0_100%] min-w-0">
                                 <img 
-                                    src="/carloAcutis.webp"
+                                    src="/FotoGrupo-2.png"
                                     className="w-full" 
                                     alt="Grupo en Servicio" 
                                 />

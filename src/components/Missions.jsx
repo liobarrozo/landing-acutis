@@ -5,10 +5,8 @@ import Autoplay from 'embla-carousel-autoplay';
 function Missions() {
   const pastMissions = [
     { id: 1, title: "Misión Adultos Mayores I", location: "Casa de Hermanas Compañia de María", img: "/AdultosMayores-Mision.jpg" },
-    { id: 2, title: "Misión Urbana I", location: "Las Heras", img: "https://via.placeholder.com/400x225" },
-    { id: 3, title: "Misión Eclesial", location: "Parroquia San Miguel Arcángel", img: "/Eclesial1-Mision.jpg" },
-    { id: 4, title: "Misión de Verano 2024", location: "Localidad X", img: "https://via.placeholder.com/400x225" },
-    { id: 5, title: "Misión de Invierno 2023", location: "Localidad Y", img: "https://via.placeholder.com/400x225" },
+    { id: 2, title: "Misión Urbana I", location: "Las Heras", img: "Urbana1-Mision.png" },
+    { id: 3, title: "Misión Eclesial I", location: "Parroquia San Miguel Arcángel", img: "/Eclesial1-Mision.jpg" },
   ];
 
   const autoplayPlugin = Autoplay({
@@ -46,7 +44,7 @@ function Missions() {
                   <h3 className="card-title">{mission.title}</h3>
                   <p>{mission.location}</p>
                   <div className="card-actions justify-end">
-                    <button className="btn btn-primary btn-sm">Ver Fotos</button>
+                    {/* <button className="btn btn-primary btn-sm">Ver Fotos</button>*/} 
                   </div>
                 </div>
               </div>
